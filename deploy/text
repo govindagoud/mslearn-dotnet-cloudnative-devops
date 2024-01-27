@@ -1,0 +1,15 @@
+{
+    "clientId": "0924b008-dbbe-4650-9e12-046c02861885",
+    "clientSecret": "ybh8Q~uPlINKXQU0JdeipGl1P0Xzjik8MeKVFbYg",
+    "subscriptionId": "bbc4bcf1-982c-422d-a790-546beab11e5c",
+    "tenantId": "91dd8c42-b1d1-48fd-83a7-cfd2b48a6c8d",
+    "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+    "resourceManagerEndpointUrl": "https://management.azure.com/",
+    "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+    "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
+    "galleryEndpointUrl": "https://gallery.azure.com/",
+    "managementEndpointUrl": "https://management.core.windows.net/"
+}
+
+az acr repository show-tags -n acseshop1379502965 --repository productservice --orderby time_desc --output table
+
