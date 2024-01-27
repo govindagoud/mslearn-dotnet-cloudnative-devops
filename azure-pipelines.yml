@@ -19,7 +19,8 @@ variables:
   imagePullSecret: 'acseshop1379502965ac2c-auth'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  #vmImageName: 'ubuntu-latest'
+  name : default
 
 
 stages:
