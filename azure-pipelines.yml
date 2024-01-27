@@ -19,9 +19,8 @@ variables:
   imagePullSecret: 'acseshop1379502965ac2c-auth'
 
 
-  pool:
+pool:
   name: Default
-
 
 stages:
 - stage: Build
