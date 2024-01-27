@@ -18,10 +18,9 @@ variables:
   tag: '$(Build.BuildId)'
   imagePullSecret: 'acseshop1379502965ac2c-auth'
 
-  # Agent VM image name
-  #vmImageName: 'ubuntu-latest'
+
   pool:
-  name: Default
+   name: Default
 
 
 stages:
