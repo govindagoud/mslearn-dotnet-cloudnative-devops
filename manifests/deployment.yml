@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: productservice 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: productservice
+  template:
+    metadata:
+      labels:
+        app: productservice 
+    spec:
+      containers:
+        - name: productservice 
+          image: acseshop1379502965.azurecr.io/productservice
+          ports:
+          - containerPort: 8080
