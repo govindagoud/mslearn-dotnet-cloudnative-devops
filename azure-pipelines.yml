@@ -20,7 +20,7 @@ variables:
 
 
   pool:
-   name: Default
+  name: Default
 
 
 stages:
