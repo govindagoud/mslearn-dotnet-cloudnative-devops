@@ -18,9 +18,8 @@ variables:
   tag: '$(Build.BuildId)'
   imagePullSecret: 'acseshop1379502965ac2c-auth'
 
-
-pool:
-  name: Default
+  # Agent VM image name
+  vmImageName: 'default'
 
 stages:
 - stage: Build
